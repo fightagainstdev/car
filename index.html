@@ -154,21 +154,23 @@
         left: 50%;
         top: 25%;
         transform: translate(-50%, -50%);
-        font-size: 5em;
-
-        background: -webkit-linear-gradient(#25d8b1, #e2bbf0);
+        font-size: 4em;
+        white-space: nowrap; /* 保证 QR 赛车游戏 在一行 */
+        font-weight: 700;
+        background: linear-gradient(90deg, #25d8b1, #e2bbf0);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
 
       #text {
-        position: absolute;
+       position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        font-size: 1.2em;
-        color: #d9bbf3;
-        text-shadow: 0 0 black, 0 2px black, 2px 0 black, 0 0 black;
+        font-size: 2em; /* 插入硬币更大 */
+        font-weight: 700;
+        color: #ffd966;
+        text-shadow: 2px 2px 4px #000;
       }
 
       .blink {
